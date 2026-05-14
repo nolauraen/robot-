@@ -1,4 +1,3 @@
-/* ===== ОБЩИЕ СТИЛИ ===== */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -17,7 +16,7 @@ header {
 /* ===== HERO ===== */
 .hero {
   padding: 80px 20px;
-  background: linear-gradient(135deg, #1b2a4a, #0b0f1a);
+  background: rgba(0,0,0,0.2);
 }
 
 button {
@@ -47,7 +46,7 @@ button:hover {
   flex-wrap: wrap;
 }
 
-/* ===== КАРТОЧКИ ===== */
+/* ===== CARD ===== */
 .card {
   background: #111a2e;
   padding: 15px;
@@ -57,14 +56,13 @@ button:hover {
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 
-/* ===== КАРТИНКИ ===== */
 .card img {
   width: 100%;
   border-radius: 10px;
   transition: 0.4s;
 }
 
-/* ===== АНИМАЦИЯ ТРАНСФОРМАЦИИ ===== */
+/* ===== TRANSFORM EFFECT ===== */
 .transform-card:hover {
   transform: scale(1.08);
   box-shadow: 0 0 25px rgba(0,255,255,0.4);
@@ -75,24 +73,15 @@ button:hover {
   filter: brightness(1.2);
 }
 
+/* ===== IMAGE WRAPPER ===== */
+.image-wrapper img {
+  width: 100%;
+  border-radius: 10px;
+}
+
 /* ===== FOOTER ===== */
 footer {
   padding: 20px;
   background: #111a2e;
   margin-top: 40px;
-}
-
-.image-wrapper img {
-  transition: all 0.4s ease;
-}
-
-/* эффект “энергии трансформации” */
-.card.transform-card:active {
-  box-shadow: 0 0 35px cyan;
-}
-
-@keyframes moveBG {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
 }
