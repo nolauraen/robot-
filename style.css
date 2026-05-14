@@ -1,10 +1,14 @@
 /* ===== ОБЩИЕ СТИЛИ ===== */
 body {
+body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #0b0f1a;
   color: white;
   text-align: center;
+
+  background: linear-gradient(135deg, #020617, #0b1b3a, #0a3d62);
+  background-size: 300% 300%;
+  animation: moveBG 8s ease infinite;
 }
 
 /* ===== HEADER ===== */
@@ -88,4 +92,10 @@ footer {
 /* эффект “энергии трансформации” */
 .card.transform-card:active {
   box-shadow: 0 0 35px cyan;
+}
+
+@keyframes moveBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
