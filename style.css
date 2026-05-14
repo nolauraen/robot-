@@ -80,3 +80,12 @@ footer {
   background: #111a2e;
   margin-top: 40px;
 }
+
+.image-wrapper img {
+  transition: all 0.4s ease;
+}
+
+/* эффект “энергии трансформации” */
+.card.transform-card:active {
+  box-shadow: 0 0 35px cyan;
+}
