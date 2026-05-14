@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Robot Transform</title>
-
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -20,54 +19,57 @@
   <button onclick="scrollToSection()">Смотреть модели</button>
 </section>
 
-<!-- 👇 ВОТ ЭТО ГЛАВНОЕ (карточки) -->
 <section id="models">
-
   <h2>Модели трансформации</h2>
 
   <div class="grid">
 
+    <!-- 1 -->
     <div class="card transform-card">
-      <img 
-        src="https://images.unsplash.com/photo-1502877338535-766e1452684a"
-        data-car="https://images.unsplash.com/photo-1502877338535-766e1452684a"
-        data-robot="https://images.unsplash.com/photo-1542362567-b07e54358753"
-        data-state="car"
-      />
+      <div class="image-wrapper">
+        <img 
+          src="https://images.unsplash.com/photo-1502877338535-766e1452684a"
+          data-car="https://images.unsplash.com/photo-1502877338535-766e1452684a"
+          data-robot="https://images.unsplash.com/photo-1542362567-b07e54358753"
+          data-state="car"
+        />
+      </div>
 
       <h3>Cyber Truck Bot</h3>
-
       <button onclick="transform(this)">TRANSFORM</button>
     </div>
 
+    <!-- 2 -->
     <div class="card transform-card">
-      <img 
-        src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7"
-        data-car="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7"
-        data-robot="https://images.unsplash.com/photo-1511910849309-0dffb8785146"
-        data-state="car"
-      />
+      <div class="image-wrapper">
+        <img 
+          src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7"
+          data-car="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7"
+          data-robot="https://images.unsplash.com/photo-1511910849309-0dffb8785146"
+          data-state="car"
+        />
+      </div>
 
       <h3>Speed Racer Bot</h3>
-
       <button onclick="transform(this)">TRANSFORM</button>
     </div>
 
+    <!-- 3 -->
     <div class="card transform-card">
-      <img 
-        src="https://images.unsplash.com/photo-1503376780353-7e6692767b70"
-        data-car="https://images.unsplash.com/photo-1503376780353-7e6692767b70"
-        data-robot="https://images.unsplash.com/photo-1542362567-b07e54358753"
-        data-state="car"
-      />
+      <div class="image-wrapper">
+        <img 
+          src="https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+          data-car="https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+          data-robot="https://images.unsplash.com/photo-1542362567-b07e54358753"
+          data-state="car"
+        />
+      </div>
 
       <h3>Urban Fighter Bot</h3>
-
       <button onclick="transform(this)">TRANSFORM</button>
     </div>
 
   </div>
-
 </section>
 
 <footer>
