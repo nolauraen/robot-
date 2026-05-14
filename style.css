@@ -1,14 +1,11 @@
 /* ===== ОБЩИЕ СТИЛИ ===== */
 body {
-body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: white;
   text-align: center;
 
   background: linear-gradient(135deg, #020617, #0b1b3a, #0a3d62);
-  background-size: 300% 300%;
-  animation: moveBG 8s ease infinite;
 }
 
 /* ===== HEADER ===== */
