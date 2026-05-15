@@ -5,7 +5,7 @@ function transform(btn) {
   img.style.opacity = "0";
 
   setTimeout(() => {
-    img.src = "https://via.placeholder.com/300x200.png?text=ROBOT+MODE";
+    img.src = "https://via.placeholder.com/300x200.png?text=CYBER+ROBOT+MODE";
     img.style.opacity = "1";
   }, 300);
 }
